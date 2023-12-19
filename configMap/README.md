@@ -13,12 +13,11 @@ ConfigMap là một tài nguyên giúp bạn quản lý cấu hình của ứng 
             env_text2: Hanoi         # Key-value pair 1
 ```
 
-### Đọc configmap từ 1 file bên ngoài
-
-![Alt text](/image/image-1.png)
 
 ### Chạy lệnh tạo configmap bằng imperative
+Đọc configmap từ 1 file bên ngoài
 
+![Alt text](/image/image-1.png)
 ```bash
   kubectl create configmap myconfigmap-1 --from-env-file=env.properties
 ```

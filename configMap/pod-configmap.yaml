@@ -23,4 +23,4 @@ spec:
           valueFrom:
             configMapKeyRef:
               name: test-configmap
-              key: env_text1
+              key: env_text2

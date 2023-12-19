@@ -32,3 +32,5 @@ DECLARATIVE
 ```bash
   kubectl get configmap <tên configmap> -oyaml
 ```
+
+### Kiểm tra lại trên hệ thống

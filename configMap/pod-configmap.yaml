@@ -13,7 +13,7 @@ spec:
           memory: "128Mi"
           cpu: "500m"
       command:
-        ["sh", "-c", "echo $(env_text_key_1) $(config_map_key2)"]
+        ["sh", "-c", "echo $(config_map_key1) $(config_map_key2)"]
       env:
         - name: config_map_key1
           valueFrom:

@@ -12,8 +12,7 @@ spec:
         limits:
           memory: "128Mi"
           cpu: "500m"
-      command:
-        ["sh", "-c", "echo $(config_map_key1) $(config_map_key2)"]
+      command: ["sh", "-c", "echo $(config_map_key1) $(config_map_key2)"]
       env:
         - name: config_map_key1
           valueFrom:

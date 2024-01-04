@@ -26,4 +26,4 @@ DECLARATIVE
 ### Ưu và nhược điểm
 
 Ưu: Không cần mount hay tạo PV , PVC, triển khai cho single node hoặc ứng dụng chạy trên 1 node
-Nhược: Chỉ áp dụng cho ứng dụng chạy trên 1 node ko dùng đc cho deployment hoặc replicaset
+Nhược: Chỉ áp dụng cho ứng dụng chạy trên 1 node ko dùng đc cho deployment hoặc replicaset vì data không map nhau
